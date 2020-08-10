@@ -2,7 +2,7 @@
 
 Fully featured cross platform browser extension template using Webpack/Babel/React
 
-Please file any issues or feature requests at https://github.com/samueljun/tomato-clock/issues.
+Please file any issues or feature requests at https://github.com/samueljun/browser-extension-template/issues.
 
 ## Development
 
