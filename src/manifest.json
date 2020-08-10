@@ -1,0 +1,43 @@
+{
+  "manifest_version": 2,
+  "name": "Browser Extension Template",
+  "version": "__REPLACED_ON_BUILD__",
+  "description": "<SOME DESCRIPTION HERE>",
+  "author": "<YOUR NAME HERE>",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "addon@example.com",
+      "strict_min_version": "42.0"
+    }
+  },
+
+  "permissions": ["storage"],
+
+  "icons": {
+    "16": "/assets/images/tomato-icon-16.png",
+    "32": "/assets/images/tomato-icon-32.png",
+    "48": "/assets/images/tomato-icon-48.png",
+    "64": "/assets/images/tomato-icon-64.png",
+    "128": "/assets/images/tomato-icon-128.png",
+    "256": "/assets/images/tomato-icon-256.png"
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "16": "/assets/images/tomato-icon-16.png",
+      "32": "/assets/images/tomato-icon-32.png",
+      "48": "/assets/images/tomato-icon-48.png",
+      "64": "/assets/images/tomato-icon-64.png",
+      "128": "/assets/images/tomato-icon-128.png",
+      "256": "/assets/images/tomato-icon-256.png"
+    },
+    "default_title": "Panel",
+    "default_popup": "/panel/panel.html"
+  },
+
+  "options_ui": {
+    "page": "/options/options.html",
+    "browser_style": false
+  }
+}

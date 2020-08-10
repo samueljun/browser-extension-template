@@ -1,0 +1,8 @@
+body {
+  background-color: transparent;
+  margin: 1em;
+}
+
+#options-form {
+  max-width: 500px;
+}

@@ -1,0 +1,39 @@
+{
+  "name": "browser-extension-template",
+  "version": "0.0.0",
+  "description": "Fully featured cross platform browser extension template using Webpack/Babel/React",
+  "author": "Samuel Jun",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack --mode=production && node ./scripts/build-zip.js",
+    "lint": "eslint src",
+    "lint-fix": "eslint --fix src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "watch-firefox": "web-ext run --source-dir ./dist"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webextension-polyfill": "^0.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^4.2.1",
+    "eslint": "^7.6.0",
+    "eslint-plugin-react": "^7.20.5",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "web-ext": "^5.0.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
